@@ -124,7 +124,7 @@ h1 {
   padding: 0px;
   margin: 0px;
   font-size: 28px;
-  color: lavender;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -458,6 +458,8 @@ h2{
 
 
 
+/* Media Queries for Responsive Design */
+
 @media (max-width: 768px) {
   .header-Wrapper {
     padding: 10px;
@@ -502,10 +504,9 @@ h2{
 
   .project-wrapper ul li {
     width: calc(50% - 20px);
-    
   }
- 
 }
+
 @media (max-width: 768px) {
   .socials-wrapper {
     flex-direction: column;
