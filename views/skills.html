@@ -1,0 +1,146 @@
+<!-- views/skills.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link rel="stylesheet" href="app.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        #Skill-set {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h2 {
+            color: #ffffff;
+            font-size: 36px;
+            padding: 0px;
+
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .skills {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .skills li {
+            margin: 20px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .skills img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 25%;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills p {
+            margin-top: 10px;
+        }
+
+        .back-to-home{
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .back-to-home a {
+            text-decoration: none;
+            color: #ffffff;
+            /* Set your preferred link color */
+            font-weight: bolder;
+        }
+
+
+        .skills li:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Skill-set">
+        <h2 class="skill-h2">My Skills</h2>
+        <p>As a Full-Stack Developer, I've cultivated a diverse skill set that empowers me to create innovative and
+            robust solutions. Explore the key skills that contribute to my journey:</p>
+        <ul class="skills">
+
+            <li><img src="/download (1).png" alt="Skill 1">
+                <p>HTML and CSS</p>
+            </li>
+
+            <li>
+                <img src="/js.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </li>
+            <li>
+                <img src="/1_f7ztMaMM0etsFHpEfkdiwA.png" alt="Web Development">
+                <p>(Node JS and Express JS)</p>
+            </li>
+            <li>
+                <img src="/mongo.png" alt="MongoDB">
+                <p>MongoDB</p>
+            </li>
+            <li>
+                <img src="/cpp.png" alt="C++">
+                <p>C++</p>
+            </li>
+            <li>
+                <img src="/c.png" alt="C">
+                <p>C</p>
+            </li>
+            <li>
+                <img src="/download.png" alt="Other Skills">
+                <p>GitHub</p>
+            </li>
+        </ul>
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="/" class="back-to-home">Back to Home</a>
+        </div>
+    </div>
+
+    <div class="socials" id="contact">
+        <div class="socials-wrapper">
+            <div class="contact-info">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:aryansingh102003@gmail.com">aryansingh102003@gmail.com</a></p>
+                <p>Location: Indore, MP</p>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://github.com/aryansingh10" target="_blank"><img src="/github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/aryansinghthakur/" target="_blank"><img src="/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/__aryansingh__07/" target="_blank"><img src="/download.jpg" alt="Instagram"></a>
+                <a href="https://twitter.com/_aryansingh_07" target="_blank"><img src="/twiiter-2.png" alt="Twitter"></a>
+                <a href="https://drive.google.com/file/d/1rbEnoNxQWuf5BlieybGC44e0hj2LQhxL/view?usp=sharing" download="Aryan_Singh_Resume.pdf" class="resume-link">Download Resume</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!-- views/contact.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="app.css">
+    
+</head>
+
+<body>
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="/submit-contact" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required class="textarea"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <br>
+    <div align="center" class="back-to-home">
+        <a href="/">Back to Home</a>
+    </div>
+<br>
+    <div class="socials" id="contact">
+        <div class="socials-wrapper">
+            <div class="contact-info">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:aryansingh102003@gmail.com">aryansingh102003@gmail.com</a></p>
+                <p>Location: Indore, MP</p>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://github.com/aryansingh10" target="_blank"><img src="/github.png" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/aryansinghthakur/" target="_blank"><img src="/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/__aryansingh__07/" target="_blank"><img src="/download.jpg" alt="Instagram"></a>
+                <a href="https://twitter.com/_aryansingh_07" target="_blank"><img src="/twiiter-2.png" alt="Twitter"></a>
+                <a href="https://drive.google.com/file/d/1rbEnoNxQWuf5BlieybGC44e0hj2LQhxL/view?usp=sharing" download="Aryan_Singh_Resume.pdf" class="resume-link">Download Resume</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>
