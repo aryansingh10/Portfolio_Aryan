@@ -239,6 +239,7 @@ h2{
   background-color: #202020;
   padding: 50px 0;
   padding-top:20px;
+
 }
 
 .socials-wrapper {
@@ -248,6 +249,8 @@ h2{
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 .contact-info {
@@ -383,6 +386,7 @@ h2{
     margin-bottom: 15px;
     box-sizing: border-box;
     color: black;
+    padding-bottom: 20px;
 }
 
 /* Style the submit button */
@@ -392,6 +396,7 @@ h2{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
 }
 
 #Project-head{
@@ -435,6 +440,7 @@ h2{
   padding: 10px 20px;
   text-align: center;
   font-size: 16px;
+  padding-right: 2px;
 }
 .container {
     max-width: 800px;
@@ -458,6 +464,7 @@ h2{
 
 
 
+
 /* Media Queries for Responsive Design */
 
 @media (max-width: 768px) {
@@ -465,10 +472,204 @@ h2{
     padding: 10px;
   }
 
+
+  .navbar li#skills a {
+    color: #fff; /* Set text color to white or your preferred color */
+    padding: 10px 15px; /* Adjust padding for better spacing */
+    border-radius: 5px; /* Add border radius for a rounded appearance */
+    background-color: #444; /* Set background color to a darker shade */
+  }
+  /* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .project-wrapper ul li {
+      width: 100%; /* Set each project to occupy full width */
+      margin-bottom: 20px; /* Add some space between projects */
+  }
+}
+.header-Wrapper {
+  padding: 10px;
+}
+
+.navbar ul {
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar li {
+  margin: 10px 0;
+}
+@media (min-width: 769px) {
+  .project-wrapper ul {
+      display: flex; /* Use flexbox to arrange projects side by side */
+      flex-wrap: wrap; /* Allow projects to wrap to the next row if necessary */
+      justify-content: space-between; /* Distribute projects evenly across the row */
+  }
+
+  .project-wrapper ul li {
+      width: calc(50% - 10px); /* Set each project to occupy 50% of the container width with spacing */
+      margin-bottom: 20px; /* Add some space between rows of projects */
+  }
+}
+@media (max-width: 768px) {
+  .navbar ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar li {
+      margin: 10px 0;
+  }
+  .header-Wrapper {
+    padding: 10px;
+}
+
+.navbar ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 10px 0;
+}
+}
+
+
+
+@media (min-width: 769px) {
+  .navbar ul {
+      display: flex;
+      justify-content: center;
+  }
+
+  .navbar li {
+      margin: 0 20px; /* Adjust the margin as needed */
+  }
+}
+  /* Adjusting the hover effect for better visibility */
+  .navbar li#skills a:hover {
+    background-color: #666; /* Darken the background color on hover */
+  }
+/* CSS for desktop and larger screens */
+/* You can define your default styles here */
+
+/* CSS for tablets and smaller screens */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  .header-Wrapper {
+    padding: 10px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar li {
+        margin: 0 20px; /* Adjust the margin as needed */
+    }
+}
+  .navbar li {
+    margin: 10px 0;
+  }
+
+  .Mee {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .Mee img {
+    max-width: 150px;
+  }
+
+  .about h1 {
+    font-size: 24px;
+  }
+
+  .about-p {
+    font-size: 14px;
+  }
+
+  .socials-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info h2 {
+    font-size: 24px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
+}
+
+  /* Style for the navigation bar */
+.navbar {
+  background-color: #333; /* Background color of the navbar */
+}
+
+.navbar-list {
+  list-style-type: none; /* Remove bullet points from the list */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navbar-list li {
+  display: inline-block; /* Display list items horizontally */
+}
+
+.navbar-list li a {
+  display: block;
+  color: white; /* Text color of navbar links */
+  text-align: center;
+  padding: 14px 16px; /* Padding around navbar links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.navbar-list li a:hover {
+  background-color: #ddd; /* Background color on hover */
+  color: black; /* Text color on hover */
+}
+
   .contact button {
     padding: 8px 16px;
   }
+  .header-Wrapper {
+    padding: 10px;
+}
 
+.navbar ul {
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 10px 0;
+}
   .Mee {
     padding: 30px 0;
   }
@@ -484,6 +685,103 @@ h2{
   .Mee p {
     font-size: 18px;
   }
+/* CSS for desktop and larger screens */
+/* You can define your default styles here */
+
+/* CSS for tablets and smaller screens */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+  .header-Wrapper {
+    padding: 10px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+  }
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .project-wrapper ul li {
+      width: 100%; /* Set each project to occupy full width */
+      margin-bottom: 20px; /* Add some space between projects */
+  }
+}
+@media (max-width: 768px) {
+  .navbar ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar li {
+      margin: 10px 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar ul {
+      display: flex;
+      justify-content: center;
+  }
+
+  .navbar li {
+      margin: 0 20px; /* Adjust the margin as needed */
+  }
+}
+@media (min-width: 769px) {
+  .project-wrapper ul {
+      display: flex; /* Use flexbox to arrange projects side by side */
+      flex-wrap: wrap; /* Allow projects to wrap to the next row if necessary */
+      justify-content: space-between; /* Distribute projects evenly across the row */
+  }
+
+  .project-wrapper ul li {
+      width: calc(50% - 10px); /* Set each project to occupy 50% of the container width with spacing */
+      margin-bottom: 20px; /* Add some space between rows of projects */
+  }
+}
+
+  .Mee {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .Mee img {
+    max-width: 150px;
+  }
+
+  .about h1 {
+    font-size: 24px;
+  }
+
+  .about-p {
+    font-size: 14px;
+  }
+
+  .socials-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info h2 {
+    font-size: 24px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+  }
+}
 
   .about {
     padding: 30px;
@@ -517,6 +815,46 @@ h2{
     text-align: center;
     margin: 0;
   }
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .project-wrapper ul li {
+      width: 100%; /* Set each project to occupy full width */
+      margin-bottom: 20px; /* Add some space between projects */
+  }
+}
+@media (max-width: 768px) {
+  .navbar ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar li {
+      margin: 10px 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar ul {
+      display: flex;
+      justify-content: center;
+  }
+
+  .navbar li {
+      margin: 0 20px; /* Adjust the margin as needed */
+  }
+}
+@media (min-width: 769px) {
+  .project-wrapper ul {
+      display: flex; /* Use flexbox to arrange projects side by side */
+      flex-wrap: wrap; /* Allow projects to wrap to the next row if necessary */
+      justify-content: space-between; /* Distribute projects evenly across the row */
+  }
+
+  .project-wrapper ul li {
+      width: calc(50% - 10px); /* Set each project to occupy 50% of the container width with spacing */
+      margin-bottom: 20px; /* Add some space between rows of projects */
+  }
+}
 
   .contact-info h2 {
     font-size: 28px;
@@ -532,9 +870,106 @@ h2{
   }
 
   .social-icons a {
-    margin: 0 15px;
+    margin: 0 15px;/* CSS for desktop and larger screens */
+    /* You can define your default styles here */
+    
+    /* CSS for tablets and smaller screens */
+    @media (max-width: 768px) {
+      /* Adjust styles for smaller screens here */
+      .header-Wrapper {
+        padding: 10px;
+      }
+    /* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .project-wrapper ul li {
+      width: 100%; /* Set each project to occupy full width */
+      margin-bottom: 20px; /* Add some space between projects */
+  }
+}
+
+@media (min-width: 769px) {
+  .project-wrapper ul {
+      display: flex; /* Use flexbox to arrange projects side by side */
+      flex-wrap: wrap; /* Allow projects to wrap to the next row if necessary */
+      justify-content: space-between; /* Distribute projects evenly across the row */
   }
 
+  .project-wrapper ul li {
+      width: calc(50% - 10px); /* Set each project to occupy 50% of the container width with spacing */
+      margin-bottom: 20px; /* Add some space between rows of projects */
+  }
+}
+
+      .navbar ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .navbar li {
+        margin: 10px 0;
+      }
+    
+      .Mee {
+        text-align: center;
+        padding: 30px 0;
+      }
+    
+      .Mee img {
+        max-width: 150px;
+      }
+    
+      .about h1 {
+        font-size: 24px;
+      }
+    
+      .about-p {
+        font-size: 14px;
+      }
+    
+      .socials-wrapper {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .contact-info h2 {
+        font-size: 24px;
+      }
+    
+      .contact-info p {
+        font-size: 14px;
+      }
+    
+      .social-icons {
+        margin-top: 20px;
+      }
+    
+      .social-icons a {
+        margin: 0 10px;
+      }
+    }
+    
+  }
+  @media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar li {
+        margin: 0 20px; /* Adjust the margin as needed */
+    }
+}
   .social-icons img {
     width: 30px;
     height: 30px;
@@ -544,6 +979,18 @@ h2{
 @media (min-width: 769px) and (max-width: 1024px) {
   .header-Wrapper {
     padding: 15px;
+  }
+
+  .navbar li#skills a {
+    color: #fff; /* Set text color to white or your preferred color */
+    padding: 10px 15px; /* Adjust padding for better spacing */
+    border-radius: 5px; /* Add border radius for a rounded appearance */
+    background-color: #444; /* Set background color to a darker shade */
+  }
+  
+  /* Adjusting the hover effect for better visibility */
+  .navbar li#skills a:hover {
+    background-color: #666; /* Darken the background color on hover */
   }
 
   .contact button {
@@ -583,13 +1030,52 @@ h2{
     height: 100px;
   }
 
+  /* Media Queries for Responsive Design */
+@media (max-width: 768px) {
   .project-wrapper ul li {
-    width: calc(33.33% - 20px);
+      width: 100%; /* Set each project to occupy full width */
+      margin-bottom: 20px; /* Add some space between projects */
   }
+}
+
+@media (min-width: 769px) {
+  .project-wrapper ul {
+      display: flex; /* Use flexbox to arrange projects side by side */
+      flex-wrap: wrap; /* Allow projects to wrap to the next row if necessary */
+      justify-content: space-between; /* Distribute projects evenly across the row */
+  }
+
+  .project-wrapper ul li {
+      width: calc(50% - 10px); /* Set each project to occupy 50% of the container width with spacing */
+      margin-bottom: 20px; /* Add some space between rows of projects */
+  }
+}
+
 
   .socials-wrapper {
     font-family: "Poppins", sans-serif;
   }
+  /* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .project-wrapper ul li {
+      width: 100%; /* Set each project to occupy full width */
+      margin-bottom: 20px; /* Add some space between projects */
+  }
+}
+
+@media (min-width: 769px) {
+  .project-wrapper ul {
+      display: flex; /* Use flexbox to arrange projects side by side */
+      flex-wrap: wrap; /* Allow projects to wrap to the next row if necessary */
+      justify-content: space-between; /* Distribute projects evenly across the row */
+  }
+
+  .project-wrapper ul li {
+      width: calc(50% - 10px); /* Set each project to occupy 50% of the container width with spacing */
+      margin-bottom: 20px; /* Add some space between rows of projects */
+  }
+}
+
 
   .contact-info h2 {
     font-size: 24px;
@@ -603,5 +1089,63 @@ h2{
   .social-icons img {
     width: 30px;
     height: 30px;
+  }
+}
+/* Base styles for the button */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust button size for smaller screens */
+  .button {
+      padding: 8px 16px;
+      font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for even smaller screens */
+  .button {
+      padding: 6px 12px;
+      font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Adjust button size for smaller screens */
+  .button {
+      padding: 8px 16px;
+      font-size: 14px;
+  }
+  
+  /* Adjust hover effect for smaller screens */
+  .button:hover {
+      background-color: #2980b9;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Further adjustments for even smaller screens */
+  .button {
+      padding: 6px 12px;
+      font-size: 12px;
+  }
+  
+  /* Further adjustments for hover effect on smaller screens */
+  .button:hover {
+      background-color: #2980b9;
   }
 }
